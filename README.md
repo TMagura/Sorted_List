@@ -1,8 +1,10 @@
 # state_management
 
-A new Flutter project.
+Sorted list with riverpod.
 
-## Getting Started
+## used packages
+- flutter_riverpod
+- collection
 
 This project is a starting point for a Flutter application.
 
