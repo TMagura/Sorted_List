@@ -138,11 +138,18 @@ Widget build(BuildContext context, WidgetRef ref) {
         itemBuilder: (context, index) {
           final product = products[index];
           return ListTile(
-            title: Text(product.name),
+            title: Text(product.name,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+            ),
+            ),
             subtitle: Text('${product.price} \$'),
           );
+          
         },
+        
       ),
+      
     ),
   );
 }
